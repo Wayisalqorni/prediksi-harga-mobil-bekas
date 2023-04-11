@@ -16,7 +16,6 @@ predict = ''
 
 
 if st.button('Estimasi Harga'):
-    sidebar_choice == 'Prediksi'
     predict = model.predict(
         [[year,mileage,tax,mpg,engineSize]]
     )
